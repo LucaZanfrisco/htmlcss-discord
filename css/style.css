@@ -6,6 +6,9 @@ Reset
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Hind',sans-serif;
+}
 /* 
 -----------
 */
@@ -67,6 +70,7 @@ Header
 */
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 header > .row{
     padding: 15px 0;
@@ -293,6 +297,9 @@ footer .info h4{
 footer .info ul li{
     padding: 10px;
     list-style: none;
+}
+footer .info ul li a{
+    background-color: transparent;
 }
 footer .f-container a{
     background-color: #7289da;
