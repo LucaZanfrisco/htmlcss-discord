@@ -250,6 +250,12 @@ main .m-container a.download{
     margin-bottom: 130px;
     display: inline-block;
 }
+.star{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 20%;
+}
 /* --------------- */
 
 /* Footer content */
