@@ -69,10 +69,12 @@ Header
 .row{
     display: flex;
 }
-header .row{
+header > .row{
     padding: 15px 0;
     font-size: 20px;
-    justify-content: center;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 header .col{
     padding: 15px;
@@ -82,19 +84,17 @@ header .col{
     border-bottom: 4px solid #add8e6;
 }
 .logo{
-    width: 250px;
-    text-align: left;
+    width: 20%;
 }
 .link{
-    width: 720px;
-    text-align: center;
+    width: 60%;
 }
 .login{
-    width: 250px;
-    text-align: right;
+    width: 20%;
 }
 .box{
     max-width: 900px;
+    height: 400px;
     margin: 0 auto;
 }
 /* 
@@ -163,4 +163,58 @@ button{
 }
 /* 
 ---------
+Fine del layout
+---------
 */
+
+/* 
+Content
+*/
+
+/* Header content */
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
+    text-align: center; 
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: white;
+    border-radius: 50px;
+}
+header .login a{
+    padding: 10px;
+    color: #402d3b;
+}
+header .nav-bar ul {
+    list-style: none;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header .nav-bar ul li a{
+    background-color: transparent;
+}
+header .h-container .box h2{
+    font-size: 36px;
+    padding: 50px;
+}
+header .h-container .box p{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+header .h-container .box a{
+    padding: 20px;
+    margin: 0 20px 0;
+    font-size: 20px;
+    display: inline-block;
+}
+header .h-container .box a.download{
+    color: black;
+}
+header .h-container .box a.open{
+    background-color: #23272a;
+}
+/* -------------------- */
