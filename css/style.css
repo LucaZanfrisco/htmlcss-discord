@@ -187,6 +187,9 @@ a{
     background-color: white;
     border-radius: 50px;
 }
+a:hover{
+    text-decoration: underline;
+}
 header .login a{
     padding: 10px;
     color: #402d3b;
@@ -287,8 +290,9 @@ footer .info h4{
     color: #5575d1;
     font-size: 25px;
 }
-footer .info > *{
+footer .info ul li{
     padding: 10px;
+    list-style: none;
 }
 footer .f-container a{
     background-color: #7289da;
