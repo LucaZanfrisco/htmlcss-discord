@@ -9,6 +9,9 @@ Reset
 body{
     font-family: 'Hind',sans-serif;
 }
+.img-fluid{
+    width: 100%;
+}
 /* 
 -----------
 */
@@ -99,7 +102,6 @@ header .col{
 }
 .box{
     max-width: 900px;
-    height: 400px;
     margin: 0 auto;
 }
 /* 
@@ -110,7 +112,7 @@ header .col{
 Main
 */
 main > div:nth-child(even){
-    background-color: #d3d3d3;
+    background-color: #e2e2e2;
 }
 main .row{
     padding: 50px 0px;
@@ -182,6 +184,7 @@ Content
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
     color: white;
     text-align: center; 
 }
@@ -217,7 +220,7 @@ header .h-container .box p{
 }
 header .h-container .box a{
     padding: 20px;
-    margin: 0 20px 0;
+    margin: 0 20px 20px;
     font-size: 20px;
     display: inline-block;
 }
